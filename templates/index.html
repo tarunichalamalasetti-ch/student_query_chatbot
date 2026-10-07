@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopGrade Internship Assistant</title>
+    
+    <!-- Google Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Top Orange Bar -->
+    <header class="top-nav-bar">
+        <div class="top-nav-brand">
+            <div class="top-nav-icon" aria-hidden="true">
+                <!-- Book / Certificate Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+            </div>
+            <div class="top-nav-text">
+                <h1 class="top-nav-title">TOPGRADE INTERNSHIP ASSISTANT</h1>
+                <p class="top-nav-subtitle">Your Internship Support Assistant</p>
+            </div>
+        </div>
+
+        <div class="top-nav-actions">
+            <div class="online-status-badge">
+                <span class="status-dot"></span>
+                <span>Online</span>
+            </div>
+            <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Categories">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Container (Dual Pane) -->
+    <div class="app-layout">
+        
+        <!-- Left Sidebar: Categories & Support -->
+        <aside class="sidebar-pane" id="sidebar-pane">
+            <div class="sidebar-header">
+                <span class="sidebar-tag">STUDENT SUPPORT</span>
+                <h2 class="sidebar-heading">How can we help you?</h2>
+                <p class="sidebar-subtext">Choose a category or ask your question to get instant support.</p>
+            </div>
+
+            <!-- 2-Column Category Grid -->
+            <div class="category-grid" id="category-grid">
+                <button type="button" class="category-card active" data-category="internship">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                    <span>Internship</span>
+                </button>
+
+                <button type="button" class="category-card" data-category="classes">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    <span>Classes & Batch</span>
+                </button>
+
+                <button type="button" class="category-card" data-category="onboarding">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                        <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                    </svg>
+                    <span>Onboarding</span>
+                </button>
+
+                <button type="button" class="category-card" data-category="programs">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                    <span>Programs & Domains</span>
+                </button>
+
+                <button type="button" class="category-card" data-category="projects">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span>Projects</span>
+                </button>
+
+                <button type="button" class="category-card" data-category="certificates">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
+                    <span>Certificates</span>
+                </button>
+
+                <button type="button" class="category-card" data-category="documentation">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                    </svg>
+                    <span>Documentation</span>
+                </button>
+
+                <button type="button" class="category-card" data-category="submission">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <span>Submission</span>
+                </button>
+
+                <button type="button" class="category-card" data-category="placement">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                    <span>Placement Guidance</span>
+                </button>
+
+                <button type="button" class="category-card" data-category="support">
+                    <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                        <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                    </svg>
+                    <span>Support</span>
+                </button>
+            </div>
+
+            <!-- Quick Support Card -->
+            <div class="quick-support-card">
+                <div class="quick-support-header">
+                    <span class="support-badge-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                    </span>
+                    <h3>Quick Support</h3>
+                </div>
+                <p class="quick-support-desc">Get instant answers about your TopGrade Innovation internship journey.</p>
+                <a href="tel:+917619468135" class="btn-website">
+                    <span>Visit Official Website</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </a>
+                <span class="website-note">Official TopGrade Innovation Website</span>
+            </div>
+
+            <!-- Footer Branding -->
+            <div class="sidebar-footer">
+                <span class="brand-slogan">Learn &bull; Build &bull; Grow</span>
+                <span class="brand-sub">Your skills today. A better tomorrow.</span>
+            </div>
+        </aside>
+
+        <!-- Right Main Chat Pane -->
+        <main class="chat-pane" role="main">
+            
+            <!-- Chat Sub-Header -->
+            <div class="chat-sub-header">
+                <div class="sub-header-avatar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+                        <circle cx="12" cy="5" r="2"></circle>
+                        <path d="M12 7v4"></path>
+                        <line x1="8" y1="16" x2="8" y2="16"></line>
+                        <line x1="16" y1="16" x2="16" y2="16"></line>
+                    </svg>
+                </div>
+                <div class="sub-header-info">
+                    <h2 class="sub-header-title">TopGrade Internship Assistant</h2>
+                    <p class="sub-header-desc">Ask questions about your internship, projects, certificates and more.</p>
+                </div>
+            </div>
+
+            <!-- Scrollable Chat Stream -->
+            <div class="chat-conversation" id="chat-conversation" role="log" aria-live="polite">
+                
+                <!-- Initial Bot Message -->
+                <div class="msg-row bot">
+                    <div class="msg-avatar bot-avatar-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+                            <circle cx="12" cy="5" r="2"></circle>
+                            <path d="M12 7v4"></path>
+                            <line x1="8" y1="16" x2="8" y2="16"></line>
+                            <line x1="16" y1="16" x2="16" y2="16"></line>
+                        </svg>
+                    </div>
+                    <div class="msg-content">
+                        <div class="msg-bubble bot-bubble">
+                            <p>Hello! 👋</p>
+                            <p>Welcome to <strong>TopGrade Internship Assistant</strong>.</p>
+                            <p>I can help you understand your internship process, projects, documentation, certificates, classes, and support information.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Questions Section (inside stream or right after welcome) -->
+                <div class="quick-questions-wrapper" id="quick-questions-wrapper">
+                    <div class="quick-questions-header">
+                        <span class="qq-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                            </svg>
+                        </span>
+                        <div class="qq-title-group">
+                            <span class="qq-title">Quick Questions</span>
+                            <span class="qq-subtitle">Click on any question below or type your own message.</span>
+                        </div>
+                    </div>
+                    <div class="quick-pills-list" id="quick-pills-list">
+                        <!-- Loaded dynamically based on active category -->
+                        <button type="button" class="quick-pill-btn" data-query="What is TopGrade Innovation?">What is TopGrade Innovation?</button>
+                        <button type="button" class="quick-pill-btn" data-query="How long is the program?">How long is the program?</button>
+                        <button type="button" class="quick-pill-btn" data-query="How many projects are there?">How many projects are there?</button>
+                        <button type="button" class="quick-pill-btn" data-query="What is a Minor Project?">What is a Minor Project?</button>
+                        <button type="button" class="quick-pill-btn" data-query="What certificates will I get?">What certificates will I get?</button>
+                        <button type="button" class="quick-pill-btn" data-query="How do I contact support?">How do I contact support?</button>
+                    </div>
+                </div>
+
+                <!-- Typing indicator (hidden by default) -->
+                <div class="msg-row bot typing-row" id="typing-indicator" style="display: none;" aria-label="Assistant is typing">
+                    <div class="msg-avatar bot-avatar-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+                            <circle cx="12" cy="5" r="2"></circle>
+                            <path d="M12 7v4"></path>
+                            <line x1="8" y1="16" x2="8" y2="16"></line>
+                            <line x1="16" y1="16" x2="16" y2="16"></line>
+                        </svg>
+                    </div>
+                    <div class="msg-content">
+                        <div class="typing-bubble">
+                            <span class="t-dot"></span>
+                            <span class="t-dot"></span>
+                            <span class="t-dot"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Input Section -->
+            <footer class="chat-footer">
+                <form class="chat-form" id="chat-form" autocomplete="off">
+                    <div class="input-card">
+                        <textarea 
+                            id="user-input" 
+                            name="message" 
+                            class="input-textarea" 
+                            placeholder="Ask about your internship journey..."
+                            rows="2"
+                            aria-label="Ask a question"
+                        ></textarea>
+                        <div class="input-card-bottom">
+                            <span class="enter-hint">Press Enter to send</span>
+                            <button type="submit" id="send-btn" class="btn-send-square" aria-label="Send message">
+                                <!-- Return / Enter arrow icon -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="9 10 4 15 9 20"></polyline>
+                                    <path d="M20 4v7a4 4 0 0 1-4 4H4"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="disclaimer-text">
+                    For enrollment-specific information, always follow your official TopGrade communication
+                </div>
+            </footer>
+
+        </main>
+    </div>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- Frontend Script -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

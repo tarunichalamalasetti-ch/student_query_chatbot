@@ -1,0 +1,210 @@
+hi|Hello! Welcome to TopGrade Internship Assistant. How can I help you?
+hello|Hello! Welcome to TopGrade Internship Assistant. How can I help you?
+hey|Hello! How can I help you with your internship?
+good morning|Good morning! How can I help you?
+good afternoon|Good afternoon! How can I help you?
+good evening|Good evening! How can I help you?
+
+help|You can ask me about TopGrade, the program, internship, onboarding, classes, domains, projects, certificates, LMS, documentation, submission, placement, and support.
+what can you do|I can answer questions related to TopGrade program information, internship, onboarding, classes, projects, certificates, documentation, submission, placement, and support.
+what can i ask|You can ask about the TopGrade program, internship, onboarding, projects, certificates, documentation, submission, placement, and support.
+
+what is topgrade innovation|TopGrade Innovation provides training and internship programs designed to help students develop practical skills through learning, projects, and guidance.
+tell me about topgrade innovation|TopGrade Innovation provides training and internship programs with practical learning, project work, and guidance.
+what is this internship|This internship includes training, practical learning, project work, and guidance based on the selected program.
+what does the internship include|The internship includes training, practical learning, project work, and guidance.
+
+how long is the program|The overall program description mentions a two-month program. Please refer to your official offer letter for your individual internship dates.
+how many months is the program|The overall program description mentions a two-month program.
+what is the program duration|The program description mentions a two-month program.
+when do classes start|According to the instructions shared, classes start on the 1st of the selected month.
+when will classes start|Classes start on the 1st of the selected month according to the instructions shared.
+
+training|The program provides training designed to develop skills from basic to advanced levels.
+training details|Training focuses on domain knowledge, conceptual learning, practical exposure, and hands-on experience.
+basic to advanced skills|The training is designed to help learners develop skills from basic to advanced levels.
+practical learning|The program includes practical exposure, hands-on learning, interactive problem-solving, and project work.
+hands on experience|Projects and practical activities help students gain hands-on experience and problem-solving skills.
+
+internship|The internship includes learning, practical exposure, project work, and guidance based on the selected program.
+what is internship|The internship provides students with learning, practical exposure, and project experience.
+internship details|Please refer to your official offer letter and program instructions for your individual internship details.
+internship confirmation|Your internship slot confirmation and further instructions are shared through official communication.
+internship slot|Your internship slot confirmation and further instructions are shared through official communication.
+slot confirmation|Please check your official communication for internship slot confirmation details.
+offer letter|The internship offer letter confirms important internship information and instructions.
+internship start date|Please refer to your official offer letter for your internship start date.
+internship end date|Please refer to your official offer letter for your internship end date.
+internship duration|Please refer to your official offer letter for your individual internship duration.
+internship domain|Please refer to your official offer letter for your selected internship domain.
+
+classes|Classes are conducted according to the selected program month and batch schedule.
+class schedule|Please check your registered Email and WhatsApp for your selected month's class schedule and batch details.
+internship classes|Internship classes are conducted according to the selected month and batch schedule.
+class link|Please check your registered Email and WhatsApp for the class or session link.
+how to join class|Follow the official instructions and use the class or session link shared through the registered communication channels.
+
+batch|Internship classes may be conducted in batches according to the program schedule.
+internship batches|Internship classes may be conducted in multiple batches according to the program schedule.
+batch details|Please check your registered Email and WhatsApp for batch allocation details.
+batch allocation|Your batch allocation details will be shared through registered communication channels.
+
+same month|Please choose the same month that you selected previously when instructed.
+choose same month|Please choose the same month that you selected previously when instructed.
+selected month|Class and internship details may depend on the month you selected during registration.
+
+registered email|Please keep your registered Email ID active to receive program updates and notifications.
+registered whatsapp|Please keep your registered WhatsApp number active to receive program communication and updates.
+internship updates|Please regularly check your registered Email and WhatsApp for important updates.
+group links|Group links and internship instructions may be shared through official registered communication channels.
+
+available domains|Please refer to the official program information for the available domains.
+internship domains|Different internship domains may be available depending on the current program.
+domain details|Please refer to the official program information for available domain details.
+selected domain|Your learning and internship activities are related to the domain you selected.
+
+which domains are there|You can check the available domains and program details on the official TopGrade Innovation website: https://www.topgradeinnovation.com/
+what domains are available|You can check the available domains and program details on the official TopGrade Innovation website: https://www.topgradeinnovation.com/
+what certificates will i receive|The program description mentions four premium certificates. The sample certificates include a Certificate of Training, Certificate of Internship Credit Point, Letter of Recommendation, and Certificate of Placement Guidance. Please follow official instructions for final certificate details.
+what are the available internship domains|You can check the available domains and program details on the official TopGrade Innovation website: https://www.topgradeinnovation.com/
+will i receive project guidance|Guidance may include topic clarification, explanation of logic and workflow, and technical hints for implementation.
+what are the internship fee details|Please check your official offer letter or official payment instructions for the applicable internship fee.
+
+what is onboarding|Onboarding is the process of completing the required registration details so the organization can communicate program information and updates.
+what is the onboarding form|The onboarding form is used to collect and confirm the required student details for program communication and registration.
+what is ob form|OB Form refers to the Onboarding Form used to collect and confirm the required student details.
+why do i need to fill the onboarding form|You need to fill the onboarding form with your correct Email ID and WhatsApp number so you can receive program updates and notifications.
+what details should i enter in the onboarding form|You should enter the required details correctly, including your Email ID and WhatsApp number, as instructed by the organization.
+how to complete onboarding|Complete the onboarding form carefully using your correct registration details.
+email required|Enter your correct Email ID to receive program updates and notifications.
+whatsapp required|Enter your correct WhatsApp number for program communication.
+submitted page screenshot|After completing the onboarding form, share a screenshot of the submitted page if requested.
+one submission|Only one form submission may be allowed, so please fill in your details carefully.
+how many times can i submit the form|Only one form submission may be allowed, so please fill in your details carefully.
+can i submit the form multiple times|Only one form submission may be allowed, so please fill in your details carefully.
+can i submit the onboarding form again|Only one form submission may be allowed, so please fill in your details carefully.
+form submission|Please complete the required form carefully and verify your details before submitting.
+form mistake|If you entered incorrect information, contact the official support team for guidance.
+
+what is the remaining fee|Please check the official payment instructions provided by the organization for your remaining fee details.
+when should i pay the remaining fee|According to the instructions shared, the remaining balance fee should be paid within the specified time mentioned by the organization.
+how do i pay the remaining fee|Please use the official payment method or link provided by the organization and follow the given instructions.
+
+projects|The program includes practical project work to help students apply what they learn.
+project|Project work is an important part of practical learning and internship evaluation.
+live projects|The program description mentions practical projects designed to help students apply concepts in real-world scenarios.
+real world projects|Projects are designed to provide practical experience and problem-solving skills.
+
+what is a minor project|A Minor Project is a smaller project designed to help students apply their learning and practical skills. According to the instructions shared, it is an important part of the internship evaluation.
+what is a major project|A Major Project is a larger and more detailed project where students apply the knowledge and skills they learned during the internship. It is an important part of the internship evaluation.
+how many projects|The program description mentions two projects: one Minor Project and one Major Project.
+project details|Students should complete their assigned projects according to the provided instructions.
+project individually|Projects must be completed individually according to the project instructions.
+
+project submission|Projects must be submitted according to the official submission instructions.
+how to submit project|Submit the required project files, screenshots, and documentation through the official submission method mentioned in the instructions.
+what files should i submit|Submit the required project code files, dataset if applicable, screenshots, and project documentation in PDF format according to the official instructions.
+project files|Submit the required project code files and dataset if applicable.
+
+screenshots|Required screenshots should demonstrate program execution, features, and final output.
+are screenshots mandatory|Yes, screenshots are mandatory according to the project instructions shared.
+are screenshots compulsory|Yes, screenshots are mandatory according to the project instructions shared.
+do i need to upload screenshots|Yes, required screenshots should be included to demonstrate program execution, features, and final output.
+do i need screenshots for the project|Yes, screenshots are required to demonstrate program execution and final output.
+
+documentation|Project documentation must be prepared in PDF format according to the submission instructions.
+project documentation|Prepare the required project documentation and include the sections mentioned in the official instructions.
+what should be included in the documentation|The required documentation should include the sections mentioned in the official project instructions, such as project details, implementation information, screenshots, results, and conclusion.
+
+email submission|Submissions through email or other methods will not be accepted when the instructions specify Google Form submission.
+can i submit the project through email|No. Submit the project through the required Google Form when specified in the official instructions. Submissions through email or other methods will not be accepted.
+google form submission|Follow the official instructions and submit the project through the required Google Form when specified.
+where should i submit my project|Submit your project through the official Google Form according to the submission instructions.
+
+plagiarism|Plagiarism is strictly prohibited. Students should complete their projects individually.
+deadline|Please check the official project instructions for the applicable submission deadline.
+project deadline|Please complete and submit your project within the timeline mentioned in the official project instructions.
+
+major project documentation|Major Project documentation should include Project Title, Problem Statement, Objective, Tools and Technologies, System Architecture or Model Description, Code Explanation, Screenshots, Results, Conclusion, and Future Scope.
+major project screenshots folder|Follow the required Major Project screenshots folder naming format mentioned in the submission instructions.
+major project documentation file|Follow the required Major Project documentation file naming format mentioned in the submission instructions.
+
+minor project documentation|Minor Project documentation should include Problem Statement, Objective, Tools and Technologies Used, System Flow or Algorithm, Implementation Steps, Output Screenshots, and Conclusion.
+minor project screenshots folder|Follow the required Minor Project screenshots folder naming format mentioned in the submission instructions.
+minor project documentation file|Follow the required Minor Project documentation file naming format mentioned in the submission instructions.
+
+can i change my domain|A domain change is normally allowed only before the program begins, subject to availability. Request it through support as early as possible.
+i have not received my onboarding details|If onboarding details have not reached you, check the inbox and spam folder of the email used at enrollment, then contact support with your enrollment reference.
+are class recordings available|Recorded sessions are generally shared with enrolled students so you can revisit a class you missed.
+what are the projects in the internship|The internship includes two projects: a Minor Project and a Major Project. Both projects help you apply the skills you learn in your selected domain.
+what are the project requirements|Project requirements generally include the project implementation, required screenshots, and project documentation. Follow the specific instructions shared by your mentor or program team.
+how do i submit my project|Submit the required project files, screenshots, and documentation through the official submission method mentioned in your internship instructions.
+mentor support|Mentors provide guidance and conceptual support.
+project guidance|Guidance may include topic clarification, explanation of logic and workflow, and technical hints for implementation.
+topic clarification|Mentors can provide clarification about the project topic.
+logic and workflow|Mentors can explain the project logic and workflow.
+technical hints|Technical hints for implementation may be provided.
+complete code|Mentors provide guidance and conceptual support, but complete project code or ready-made projects may not be provided.
+
+how many certificates|The TopGrade program description mentions four premium certificates.
+premium certificates|The program description mentions four premium certificates.
+certificate details|The program includes certificate-related benefits. Please refer to the official program information and certificate samples for the available certificate types.
+what certificates will i get|The program description mentions four premium certificates. The sample certificates include a Certificate of Training, Certificate of Internship Credit Point, Letter of Recommendation, and Certificate of Placement Guidance. Please follow official instructions for final certificate details.
+when will i get my certificate|Certificates are issued after your final submission is reviewed and marked complete. The exact timeline is confirmed in your official communication.
+
+certificate of training|A Certificate of Training is shown in the sample certificates.
+what is a training certificate|A Training Certificate is a document that recognizes your participation or completion of the training program, according to the program requirements.
+
+certificate of internship credit point|A Certificate of Internship Credit Point is shown in the sample certificates.
+what is a credit point certificate|An Internship Credit Point Certificate recognizes the internship-related credit or achievement mentioned in the program certificate information.
+
+letter of recommendation|A Letter of Recommendation is shown in the sample certificates.
+recommendation letter|A Letter of Recommendation is shown in the sample certificates.
+what is a letter of recommendation|A Letter of Recommendation is a document that may recommend or recognize a student's participation, performance, or skills based on the program requirements.
+
+certificate of placement guidance|A Certificate of Placement Guidance is shown in the sample certificates.
+what is a placement guidance certificate|A Certificate of Placement Guidance recognizes participation in placement-related guidance or preparation mentioned in the program information.
+
+industrial training certificate|The program highlights mention an Industrial Training Certificate.
+internship completion certificate|The program highlights mention an Internship Completion Certificate.
+program certificate highlights|The program highlights mention certificate-related benefits including Industrial Training Certificate, Credit Point Certificate, Internship Completion Certificate, and Letter of Recommendation.
+
+lms|LMS stands for Learning Management System.
+what is lms|LMS stands for Learning Management System.
+what does lms mean|LMS stands for Learning Management System.
+learning management system|A Learning Management System helps organize and deliver online learning materials, assignments, and assessments.
+what is learning management system|A Learning Management System is used to manage, organize, and deliver online learning content.
+
+how can i contact topgrade|You can contact TopGrade Innovation at +91 7619468135 or +91 89044 65305 or support@topgradeinnovations.com.
+what is the contact number|You can contact TopGrade Innovation at +91 7619468135 or +91 89044 65305 or support@topgradeinnovations.com.
+topgrade contact number|The official TopGrade contact numbers are +91 7619468135 and +91 89044 65305 or support@topgradeinnovations.com.
+how do i contact support|You can contact the support team at +91 7619468135 or +91 89044 65305 or support@topgradeinnovations.com.
+support contact|For support, call +91 7619468135 or +91 89044 65305 or support@topgradeinnovations.com.
+support email|The official support email is support@topgradeinnovations.com.
+how should i add this project to my resume|List the project title, your domain, the technologies used, and one line on the project outcome. Add a link to your source code repository if available.
+what is the internship fee|Please check your official offer letter or official payment instructions for the applicable internship fee.
+who is eligible for the internship|Please refer to the official program eligibility requirements shared by TopGrade Innovation.
+is the internship online or offline|Please refer to your official communication for the mode of your internship and classes.
+
+placement training|Placement training sessions may be conducted to help students prepare for placement opportunities.
+what is placement guidance|Placement guidance is intended to support students in career preparation and placement opportunities.
+placement guidance|Placement guidance is intended to support students in career and placement preparation.
+what is placement guidence|Placement guidance is intended to support students in career preparation and placement opportunities.
+placement session|Please check official updates for placement session details.
+placement session link|Please refer to the official placement update for session link details.
+placement preparation|Placement-related training and guidance can help students prepare for career opportunities.
+how can placement training help me|Placement training sessions may be conducted to help students prepare for placement opportunities.
+
+support|For queries or assistance, contact the official support team using the contact details provided in your official communication.
+support response|According to the onboarding instructions shared, the support team may respond within 24 to 48 hours.
+when will support respond|According to the onboarding instructions shared, the support team may respond within 24 to 48 hours.
+how long will support take|According to the onboarding instructions shared, the support team may respond within 24 to 48 hours.
+support response time|According to the onboarding instructions shared, the support team may respond within 24 to 48 hours.
+how long does support take to respond|According to the onboarding instructions shared, the support team may respond within 24 to 48 hours.
+
+thank you|You're welcome! Feel free to ask another question.
+thanks|You're welcome! Happy to help you.
+thankyou|You're welcome! Happy to help you.
+thankyou so much|You're most welcome! Happy to help you.
+bye|Thank you for using TopGrade Internship Assistant. Have a great day!
+exit|Thank you for using TopGrade Internship Assistant!
